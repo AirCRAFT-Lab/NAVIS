@@ -1,3 +1,3 @@
-# virtual_flight_v1
+# FlyVR
 
 Developed with Unreal Engine 5
