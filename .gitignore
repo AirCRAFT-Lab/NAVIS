@@ -1,14 +1,23 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
+# Unreal Engine 5 Ignore Rules
+
+# Compiled binaries
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Intermediate/
+Source/*/Intermediate/
+
+# Visual Studio files
 *.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
+*.VC.db
+.vscode/
+
+# Ignore generated configs
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+Config/DefaultEngine.ini
+
+# Ignore build outputs
+Build/*/
