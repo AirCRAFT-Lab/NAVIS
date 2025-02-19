@@ -45,6 +45,5 @@ For inquiries regarding this research, please reach out to:
 ## License
 This project is licensed under the **AirCRAFT Lab Research License (ALRL) v1.0**. It is for internal research use at the **AirCRAFT Lab, Saint Louis University (SLU)**. External distribution, commercial use, and public disclosure are prohibited without prior approval.
 
-For full details, see the LICENSE file.
-
+For full details, see the file `LICENSE.md`.
 
