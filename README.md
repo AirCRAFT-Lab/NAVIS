@@ -5,7 +5,7 @@
 
 ## Features
 - **Virtual Flight Testing Cage** – A replica of SLU’s flight testing cage built in Unreal Engine 5 for realistic simulation.
-  
+  ![Cage VRE Sample](https://github.com/user-attachments/assets/fed0da7d-bb9c-4fb9-8f20-cce9aacc8bff)
 - **Simulated Flight Dynamics** – In development: Incorporates flight physics and control logic to create an accurate UAV piloting experience.
 - **Drone Operations Interface** – In development: Integrating a flight control system to mirror real-world UAS behavior.
 - **Future Integration with Live Hardware** – Bridging virtual training with physical drone operations for real-time control.
