@@ -16,7 +16,7 @@
 - **VR Integration** – In progress: testing on Meta Quest 3, with deployment planned for PC, VR headsets (OpenXR-supported devices), and additional platforms as applicable.
 
 ## Research Affiliation
-This project is part of ongoing research at the [AirCRAFT Lab](https://sites.google.com/a/slu.edu/aircraft-lab/aircraft-computational-resource-aware-fault-tolerance-aircraft-lab) at Saint Louis University (SLU).
+This project is part of ongoing research at the [AirCRAFT Lab](https://sites.google.com/a/slu.edu/aircraft-lab/aircraft-computational-resource-aware-fault-tolerance-aircraft-lab) at Saint Louis University (SLU). For further inquiries about contribution, refer to the following [contacts](https://github.com/aidabah/FlyVR/edit/main/README.md#contact).
 
 **Usage Restriction**: This research is currently proprietary and should not be copied, distributed, or used outside of the lab.
 
