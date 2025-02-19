@@ -40,6 +40,6 @@ You can now explore and modify the FlyVR virtual environment in Unreal Engine 5.
 ## Contact
 For inquiries regarding this research, please reach out to:
 - Aida Bah (Project Lead) – aidasulayb@gmail.com
-- Srikanth Gururajan – srikanth.gururajan@slu.edu
+- Srikanth Gururajan (Lab Director)– srikanth.gururajan@slu.edu
 
 
