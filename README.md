@@ -34,12 +34,34 @@ To set up and explore FlyVR’s Virtual Flight Testing Cage in Unreal Engine 5:
 3. Open the Project in Unreal Engine 5
     - Launch Unreal Engine 5
     - Open the .uproject file inside the cloned repository
+
+4. Download NVidia App for Drivers and download necessary drivers (Windows VR Setup)
+
+   `https://www.nvidia.com/en-us/software/nvidia-app/`
+
+5. Download Meta Link App and connect Meta Quest headset via usb
+
+   `https://www.meta.com/help/quest/1517439565442928/?srsltid=AfmBOoo5HDX9Xwzl0RUPHDrSAxrTUrCMRuUgJxGMM2FmbLKsoUtUX3ZB`
+
+6. If using a Meta Quest headset, turn on developer mode
+
+7. Download Steam and SteamVR and open SteamVR
+
+9. Open up the project and download OpenXR plugin for UE
+
+    `https://github.com/microsoft/Microsoft-OpenXR-Unreal`
+
+10. Restart UE and reopen the project
+
+11. Click 'start in VR'
+
     
 You can now explore and modify the FlyVR virtual environment in Unreal Engine 5.
 
 ## Contact
 For inquiries regarding this research, please reach out to:
 - Aida Bah (Project Lead) – aidasulayb@gmail.com
+- Kaysar Adde (System Developer) - kaysar.adde@slu.edu
 - Dr. Srikanth Gururajan (Lab Director) – srikanth.gururajan@slu.edu
 
 ## License
