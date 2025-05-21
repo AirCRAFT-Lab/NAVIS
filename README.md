@@ -57,7 +57,7 @@ You can now explore and modify the FlyVR virtual environment in Unreal Engine 5.
 ## Contact
 For inquiries regarding this research, please reach out to:
 - Aida Bah (Project Lead) – aidasulayb@gmail.com
-- Kaysar Adde (System Developer) - kaysar.adde@slu.edu
+- Kaysar Adde (Systems Developer) - kaysar.adde@slu.edu
 - Dr. Srikanth Gururajan (Lab Director) – srikanth.gururajan@slu.edu
 
 ## License
