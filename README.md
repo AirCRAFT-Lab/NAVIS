@@ -49,7 +49,7 @@ To set up and explore FlyVR’s Virtual Flight Testing Cage in Unreal Engine 5:
 
 10. Restart UE and reopen the project
 
-11. Click 'start in VR'
+11. Click 'Start in VR'
 
     
 You can now explore and modify the FlyVR virtual environment in Unreal Engine 5.
