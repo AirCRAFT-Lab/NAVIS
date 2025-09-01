@@ -1,6 +1,6 @@
 # NAVIS 
 
-**NAVIS** is a VR-based UAS operations platform designed to make drone piloting more accessible to non-professional users. By simulating real-world flight dynamics in a simulation environment, NAVIS provides an immersive training experience that enhances user proficiency without the need for costly equipment or formal training.
+**NAVIS** (formerly FlyVR) is a VR-based UAS operations platform designed to make drone piloting more accessible to non-professional users. By simulating real-world flight dynamics in a simulation environment, NAVIS provides an immersive training experience that enhances user proficiency without the need for costly equipment or formal training.
 
 
 ## Features
