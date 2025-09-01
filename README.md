@@ -1,6 +1,6 @@
-# FlyVR 
+# NAVIS 
 
-**FlyVR** is a VR-based UAS operations platform designed to make drone piloting more accessible to non-professional users. By simulating real-world flight dynamics in a simulation environment, FlyVR provides an immersive training experience that enhances user proficiency without the need for costly equipment or formal training.
+**NAVIS** is a VR-based UAS operations platform designed to make drone piloting more accessible to non-professional users. By simulating real-world flight dynamics in a simulation environment, NAVIS provides an immersive training experience that enhances user proficiency without the need for costly equipment or formal training.
 
 
 ## Features
@@ -21,7 +21,7 @@ This project is part of ongoing research at the [AirCRAFT Lab](https://sites.goo
 **Usage Restriction**: This research is currently proprietary and should not be copied, distributed, or used outside of the lab.
 
 ## Installation & Setup
-To set up and explore FlyVR’s Virtual Flight Testing Cage in Unreal Engine 5:
+To set up and explore NAVIS’s Virtual Flight Testing Cage in Unreal Engine 5:
 
 ### Requirements
 - Git LFS installed ([Git LFS Installation Guide](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage))
@@ -33,7 +33,7 @@ To set up and explore FlyVR’s Virtual Flight Testing Cage in Unreal Engine 5:
 ### Setup Steps
 1. Clone the Repository (Make sure Git LFS is installed)
    
-   `git clone https://github.com/aidabah/FlyVR.git`
+   `git clone https://github.com/aidabah/NAVIS.git`
 
 2. Open the Project in Unreal Engine 5
     - Launch Unreal Engine 5
@@ -52,7 +52,7 @@ To set up and explore FlyVR’s Virtual Flight Testing Cage in Unreal Engine 5:
 9. Green play button should now have VR Preview icon
 
     
-You can now explore the simulation in VR and modify the FlyVR simulation in Unreal Engine 5.
+You can now explore the simulation in VR and modify the NAVIS simulation in Unreal Engine 5.
 
 ## Contact
 For inquiries regarding this research, please reach out to:
