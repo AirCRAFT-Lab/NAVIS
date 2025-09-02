@@ -35,10 +35,6 @@
 		{
 			"Name": "GeometryScripting",
 			"Enabled": true
-		},
-		{
-			"Name": "SplineMeshMaker",
-			"Enabled": true
 		}
 	]
 }
