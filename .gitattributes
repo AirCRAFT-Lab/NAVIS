@@ -1,12 +1,9 @@
 Content/** filter=lfs diff=lfs merge=lfs -text
-
 # Treat UE binaries as binary, no EOL meddling
-*.uasset -text
-*.umap   -text
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
 # Optional: LFS + lockable if you use Git LFS
 # *.uasset filter=lfs diff=lfs merge=lfs -text lockable
 # *.umap   filter=lfs diff=lfs merge=lfs -text lockable
 # Normalize text files
 * text=auto
-*.uasset filter=lfs diff=lfs merge=lfs -text
-*.umap filter=lfs diff=lfs merge=lfs -text
