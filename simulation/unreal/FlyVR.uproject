@@ -16,10 +16,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "GeoReferencing",
-			"Enabled": true
-		},
-		{
 			"Name": "HDRIBackdrop",
 			"Enabled": true
 		},
@@ -34,6 +30,10 @@
 		},
 		{
 			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "GeoReferencing",
 			"Enabled": true
 		}
 	]
