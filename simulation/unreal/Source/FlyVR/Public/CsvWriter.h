@@ -24,10 +24,10 @@ class FLYVR_API UCsvWriter : public UBlueprintFunctionLibrary
 
 public:
 	/**
-	 * @brief This fucntion writes an array of waypoints to a CSV file.
+	 * @brief This function writes an array of waypoints to a CSV file.
 	 * 
 	 * @param Waypoints: an array of Waypoint strcut.
-	 * @return bOK: boolean for successful write.
+	 * @return bOK: boolean for successful write to target csv file.
 	 */
 	
 

@@ -40,7 +40,7 @@ bool UCsvWriter::WriteWaypointsToCsv(
 		//Tentative default altitude
 		const int32 DefaultAltM = 30;
 
-		//Append waypoints to rows
+		//Overwrite waypoints to rows
 		for (const FWaypoint& Waypoint : Waypoints) {
 			Csv += FString::Printf(
 				TEXT("%d, %.10f, %.10f, %d\r\n"),
@@ -51,7 +51,7 @@ bool UCsvWriter::WriteWaypointsToCsv(
 			);
 		}
 
-		//Write or overwrite
+		//Bool to save string to file
 		const bool bOK = FFileHelper::SaveStringToFile(
 			Csv,
 			*OutFullPath,
