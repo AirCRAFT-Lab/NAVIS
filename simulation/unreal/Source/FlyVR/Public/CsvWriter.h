@@ -8,8 +8,15 @@
 #include "CsvWriter.generated.h"
 
 /**
+ * @file CsvWriter.h
+ *
+ * @brief This file contains the class for a waypoint to CSV writer. 
  * 
+ * @author Aida Bah
+ * Contact: aidasulayb@gmail.com
+ *
  */
+
 UCLASS()
 class FLYVR_API UCsvWriter : public UBlueprintFunctionLibrary
 {
@@ -17,8 +24,12 @@ class FLYVR_API UCsvWriter : public UBlueprintFunctionLibrary
 
 public:
 	/**
-	* Function to write an array of waypoints to a CSV file.
-	*/
+	 * @brief This fucntion writes an array of waypoints to a CSV file.
+	 * 
+	 * @param Waypoints: an array of Waypoint strcut.
+	 * @return bOK: boolean for successful write.
+	 */
+	
 
 	UFUNCTION(BlueprintCallable, Category = "NAVIS|CSV")
 	static bool WriteWaypointsToCsv(

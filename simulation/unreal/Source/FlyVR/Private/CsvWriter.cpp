@@ -5,6 +5,13 @@
 #include "Misc/FileHelper.h"
 #include "HAL/FileManager.h"
 
+/**
+* @file CsvWriter.cpp
+* @brief This function writes an array of waypoints to a CSV file.
+*
+* @param Waypoints: input array of Waypoint strcut.
+* @return bOK: boolean for successful write.
+*/
 
 bool UCsvWriter::WriteWaypointsToCsv(
 	const TArray<FWaypoint>& Waypoints,
