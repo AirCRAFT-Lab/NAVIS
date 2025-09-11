@@ -1,6 +1,8 @@
+__pycache__/
+*.pyc
+
 # Unreal Engine 5 Ignore Rules
 
-# Unreal generated
 Binaries/
 DerivedDataCache/
 Intermediate/
