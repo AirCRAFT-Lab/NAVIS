@@ -6,13 +6,13 @@ from mavsdk import System
 from mavsdk.mission import MissionItem, MissionPlan
 
 # Enable INFO level logging
-logging.basicConfig(level=logging.INFO)
+#logging.basicConfig(level=logging.INFO)
 
 async def main():
+    print("starting function..")
     waypoints = '../simulation/unreal/Saved/Missions/waypoints.csv'
     system_address = "udp://0.0.0.0:14540"
-
-    drone = System(system_address)
+    drone = System()
     await connect_system(drone)
 
     mission_items = upload_mission_items(waypoints)

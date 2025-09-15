@@ -29,10 +29,10 @@ def upload_mission_items(waypoints_as_csv):
         for row in dict_reader:
             mission_items.append(
                 MissionItem(
-                    row['latitude_deg'],
-                    row['longitude_deg'],
-                    row['relative_altitude_m'],
-                    3,
+                    float(row['latitude_deg']),
+                    float(row['longitude_deg']),
+                    float(row['relative_altitude_m']),
+                    15,
                     True,
                     float("nan"),
                     float("nan"),
