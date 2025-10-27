@@ -1,6 +1,6 @@
-# FlyVR 
+# NAVIS 
 
-**FlyVR** is a VR-based UAS operations platform designed to make drone piloting more accessible to non-professional users. By simulating real-world flight dynamics in a virtual environment, FlyVR provides an immersive training experience that enhances user proficiency without the need for costly equipment or formal training.
+**NAVIS** (formerly FlyVR) is a VR-based UAS operations platform designed to make drone piloting more accessible to non-professional users. By simulating real-world flight dynamics in a simulation environment, NAVIS provides an immersive training experience that enhances user proficiency without the need for costly equipment or formal training.
 
 
 ## Features
@@ -11,7 +11,7 @@
 - **Future Integration with Live Hardware** – Bridging virtual training with physical drone operations for real-time control.
 
 ## Tech Stack
-- **Unreal Engine 5** – Environment design and simulation.
+- **Unreal Engine 5** – Simulation design and simulation.
 - **Blueprints & C++** – Game logic and physics implementation.
 - **VR Integration** – In progress: testing on Meta Quest 3, with deployment planned for PC, VR headsets (OpenXR-supported devices), and additional platforms as applicable.
 
@@ -21,11 +21,11 @@ This project is part of ongoing research at the [AirCRAFT Lab](https://sites.goo
 **Usage Restriction**: This research is currently proprietary and should not be copied, distributed, or used outside of the lab.
 
 ## Installation & Setup
-To set up and explore FlyVR’s Virtual Flight Testing Cage in Unreal Engine 5:
+To set up and explore NAVIS’s Virtual Flight Testing Cage in Unreal Engine 5:
 
 ### Requirements
 - Git LFS installed ([Git LFS Installation Guide](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage))
-- Unreal Engine 5.4 installed ([Unreal Engine 5 Download](https://www.unrealengine.com/en-US/download))
+- Unreal Engine 5.5 installed ([Unreal Engine 5 Download](https://www.unrealengine.com/en-US/download))
 - Nvidia App installed ([Nvidia App Download](https://www.nvidia.com/en-us/software/nvidia-app/))
 - Meta Link App installed ([Meta Link App Download](https://www.meta.com/help/quest/1517439565442928/?srsltid=AfmBOoo5HDX9Xwzl0RUPHDrSAxrTUrCMRuUgJxGMM2FmbLKsoUtUX3ZB))
 - Steam installed ([Steam Download](https://store.steampowered.com/about/download))
@@ -33,26 +33,26 @@ To set up and explore FlyVR’s Virtual Flight Testing Cage in Unreal Engine 5:
 ### Setup Steps
 1. Clone the Repository (Make sure Git LFS is installed)
    
-   `git clone https://github.com/aidabah/FlyVR.git`
+   `git clone https://github.com/aidabah/NAVIS.git`
 
-3. Open the Project in Unreal Engine 5
+2. Open the Project in Unreal Engine 5
     - Launch Unreal Engine 5
     - Open the .uproject file inside the cloned repository
 
-4. Turn on deveoper mode on Meta Quest headset and connect Meta Quest headset via usb to PC
+3. Turn on deveoper mode on Meta Quest headset and connect Meta Quest headset via usb to PC
 
-7. Launch SteamVR and open the project
+4. Download MetaXR plugin if using Meta Quest headset ([Meta XR Plugin Installation](https://developers.meta.com/horizon/documentation/unreal/unreal-quick-start-install-metaxr-plugin/)) 
 
-9. Download OpenXR plugin for UE and enable it
+5. Open Unreal Engine, enable MetaXR plugin and OpenXR plugin, then restart Unreal Engine
 
-    `https://github.com/microsoft/Microsoft-OpenXR-Unreal`
+6. Launch SteamVR and re-open the project
 
-10. Restart UE and reopen the project
-
-11. Click 'Start in VR'
+7. Enable 'VR preview' mode
+   
+9. Green play button should now have VR Preview icon
 
     
-You can now explore and modify the FlyVR virtual environment in Unreal Engine 5.
+You can now explore the simulation in VR and modify the NAVIS simulation in Unreal Engine 5.
 
 ## Contact
 For inquiries regarding this research, please reach out to:
