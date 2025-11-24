@@ -1,23 +1,28 @@
 # Unreal Engine 5 Ignore Rules
 
-# Compiled binaries
+# Unreal generated
 Binaries/
-Build/
 DerivedDataCache/
 Intermediate/
 Saved/
-Plugins/*/Intermediate/
-Source/*/Intermediate/
-
-# Visual Studio files
 *.sln
 *.VC.db
+*.VC.opendb
+.vs/
 .vscode/
 
-# Ignore generated configs
-Config/DefaultEditorPerProjectUserSettings.ini
-Config/DefaultEditor.ini
-Config/DefaultEngine.ini
+# OS/editor noise
+.DS_Store
+Thumbs.db
 
-# Ignore build outputs
-Build/*/
+# Plugins (generated)
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Per-user configs (never commit)
+Saved/Config/**
+**/EditorPerProjectUserSettings.ini
+
+# Build artifacts you don’t need in Git
+*.log
+*.tmp
